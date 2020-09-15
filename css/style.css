@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box; /*ajuste da tela automatica*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #1e272e;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+/*cabecalho*/
+.logo{
+    font-size: 46px;
+    cursor: default;
+}
+.cabecalho{
+    background-color: #81ecec;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabecalho-pesquisa{
+    display: flex;
+}
+.cabecalho-pesquisa input{
+    width: 170px;
+    height: 30px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px 0px 0px 5px;
+    outline: 0; /*remove a borda externa*/
+}
+.cabecalho-pesquisa button{
+    float: right;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #1e272e;
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: 0; /*remove a borda externa*/
+}
+.cabecalho-pesquisa button:active{
+    color: #1e272e;
+    background-color: white;
+    transition: 0.2s;
+}
+/*responsive*/
+@media only screen and (max-width: 479px) {
+    .cabecalho{
+        height: 110px;
+    }
+}
+/*barra gradient*/
+.barra-gradient{
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #d63031 , #6c5ce7, #fdcb6e);
+}
+.barra-gradient1{
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #d63031 , #6c5ce7, #fdcb6e);
+}
+/*navbar*/
+.nav{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+}
+.nav li{
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+.nav i{
+    color: #1e272e;
+}
+.nav a{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav i:hover{
+    color: white;
+    transition: 0.2s;
+}
+/*main*/
+#intro{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    cursor: default;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo1, .conteudo2, .conteudo3, .conteudo4, .conteudo5, .conteudo6{
+    background-color: #dfe6e9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6{
+    margin: 20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.container p{
+    margin: 10px;
+}
+/*responsive
+@media only screen and (max-width: 50%) {
+    .container{
+        display: flex;
+        height: 400px;
+    }
+}*/
+/*newsletter*/
+.newsletter{
+    padding: 10px;
+    width: 800px;
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+.tituloFooter{
+    margin: 30px;
+    cursor: default;
+}
+.newsletter h3{
+   text-align: center;
+   font-family: 'Roboto Mono', monospace;
+}
+.fa-paper-plane{
+    color: #81ecec;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.newsletter label{
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+.container-footer-interno input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    width: 170px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.newsletter form{
+    text-align: center;
+}
+/*rodape*/
+footer{
+    text-align: center;
+}
