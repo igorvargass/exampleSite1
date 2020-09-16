@@ -96,6 +96,18 @@ body{
     color: white;
     transition: 0.2s;
 }
+/*sobre*/
+.sobre{
+    color: white;
+    float: left;
+    writing-mode: vertical-lr;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 2px;
+}
+.sobre:hover{
+    font-size: 18px;
+    transition: 0.5s;
+}
 /*background image*/
 .first-image{
     height: 500px;
@@ -118,11 +130,11 @@ body{
 }
 .card1:hover, .card2:hover, .card3:hover, .card4:hover{
     color: white;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 .card1 img:hover, .card2 img:hover, .card3 img:hover, .card4 img:hover{
     transform: rotate(360deg);
-    transition: 0.2s;
+    transition: 0.4s;
     opacity: 80%;
 }
 .img-countrie1 img{
@@ -138,6 +150,7 @@ body{
     color: white;
     font-family: 'Roboto Mono', monospace;
     cursor: default;
+    letter-spacing: 2px;
 }
 .container{
     width: 1200px;
