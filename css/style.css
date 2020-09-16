@@ -48,7 +48,7 @@ body{
     border-radius: 0px 5px 5px 0px;
     outline: 0; /*remove a borda externa*/
 }
-.cabecalho-pesquisa button:active{
+.cabecalho-pesquisa button:focus{
     color: #1e272e;
     background-color: white;
     transition: 0.2s;
@@ -98,7 +98,7 @@ body{
 }
 /*background image*/
 .first-image{
-    height: 600px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
     margin-bottom: 50px;
@@ -108,12 +108,22 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.img-countrie1 a{
+    text-decoration: none;
+    color: black;
+}
 .img-countrie1 h4{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
 .card1:hover, .card2:hover, .card3:hover, .card4:hover{
     color: white;
+    transition: 0.2s;
+}
+.card1 img:hover, .card2 img:hover, .card3 img:hover, .card4 img:hover{
+    transform: rotate(360deg);
+    transition: 0.2s;
+    opacity: 80%;
 }
 .img-countrie1 img{
     margin-top: 10px;
@@ -156,6 +166,10 @@ body{
     }
 }*/
 /*newsletter*/
+.container-footer-interno input:focus{
+    background-color: #1E272E;
+    color: white;
+}
 .newsletter{
     padding: 10px;
     width: 800px;
@@ -177,6 +191,10 @@ body{
     margin: 0 5px;
     cursor: pointer;
 }
+.fa-paper-plane:hover{
+    transform: rotate(20deg);
+    transition-duration: 0.2s;
+}
 .newsletter label{
     margin-left: 10px;
     font-size: 14px;
@@ -191,6 +209,8 @@ body{
     font-size: 12px;
     border-radius: 5px;
     padding-left: 5px;
+    outline: 0;
+    border: none;
 }
 .newsletter form{
     text-align: center;
