@@ -103,6 +103,25 @@ body{
     object-fit: cover;
     margin-bottom: 50px;
 }
+/*images city*/
+.img-countrie1{
+    display: flex;
+    justify-content: space-around;
+}
+.img-countrie1 h4{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover{
+    color: white;
+}
+.img-countrie1 img{
+    margin-top: 10px;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
 /*main*/
 #intro{
     text-align: center;
@@ -114,14 +133,14 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
-
-.conteudo1, .conteudo2, .conteudo3, .conteudo4, .conteudo5, .conteudo6{
+.conteudo1, .conteudo2{
     background-color: #dfe6e9;
     padding: 10px;
     border-radius: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-#titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6{
+#titulo1, #titulo2{
     margin: 20px;
     font-family: 'Roboto Mono', monospace;
 
