@@ -96,6 +96,13 @@ body{
     color: white;
     transition: 0.2s;
 }
+/*background image*/
+.first-image{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
 /*main*/
 #intro{
     text-align: center;
@@ -112,7 +119,7 @@ body{
     background-color: #dfe6e9;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6{
     margin: 20px;
@@ -170,6 +177,7 @@ body{
     text-align: center;
 }
 /*rodape*/
-footer{
+.rodape{
     text-align: center;
+    margin-bottom: 10px;
 }
